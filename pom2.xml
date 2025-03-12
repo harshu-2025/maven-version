@@ -1,0 +1,9 @@
+<repositories>
+    <repository>
+        <id>snapshots</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
