@@ -1,0 +1,18 @@
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+</build>
+
+/*Build and run the application*/
+
+mvn clean package
+mvn spring-boot:run
+
+/* Deploy the application
+The package command creates a JAR file under target/, which you can run using:*/
+
+java -jar target/myapp-0.0.1-SNAPSHOT.jar
